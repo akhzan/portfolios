@@ -5,4 +5,17 @@
   padding: 0 25%;
   width: 50%;
   height: 100vh;
+  &.--medium {
+    padding: 0 10%;
+    width: 80%;
+  }
+  &.--flexible {
+    height: auto;
+  }
+}
+
+.app-section__title {
+  font-size: 1.8rem;
+  margin: 0.25em 0;
+  font-weight: bold;
 }
