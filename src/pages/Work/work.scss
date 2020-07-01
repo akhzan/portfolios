@@ -1,0 +1,21 @@
+.app-work {
+  padding: 8em 0;
+}
+
+.app-work__desc {
+  color: #acacac;
+  line-height: 1.5;
+}
+
+.app-work__tech {
+  margin: 4em 0;
+}
+
+.app-work__image {
+  max-width: 100%;
+  max-height: auto;
+  &.--half {
+    width: 50%;
+    height: auto;
+  }
+}

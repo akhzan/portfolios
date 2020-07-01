@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import CanfazzWeb from '../../assets/b.jpg'
 import CanfazzDashboard from '../../assets/c.jpg'
 import Sam from '../../assets/d.jpg'
@@ -12,27 +14,27 @@ const Works = () => {
         <div className="app-home__work-container">
           <div className="app-home__work-card">
             <img src={CanfazzWeb} alt="" />
-            <div className="app-home__work-card-title">
+            <Link to="/canfazz-web" className="app-home__work-card-title">
               <div>Canfazz Freelancer Web</div>
-            </div>
+            </Link>
           </div>
           <div className="app-home__work-card">
             <img src={CanfazzDashboard} alt="" />
-            <div className="app-home__work-card-title">
+            <Link to="/canfazz-dashboard" className="app-home__work-card-title">
               <div>Canfazz Dashboard</div>
-            </div>
+            </Link>
           </div>
           <div className="app-home__work-card">
             <img src={Sam} alt="" />
-            <div className="app-home__work-card-title">
+            <Link to="/sam" className="app-home__work-card-title">
               <div>SAM Advance</div>
-            </div>
+            </Link>
           </div>
           <div className="app-home__work-card">
             <img src={Porse} alt="" />
-            <div className="app-home__work-card-title">
+            <Link to="/porse" className="app-home__work-card-title">
               <div>Porse Quiz</div>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
