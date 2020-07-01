@@ -1,3 +1,5 @@
+@import '../../styles/modules/responsive';
+
 .app-home__top {
   height: 100vh;
   display: flex;
@@ -9,12 +11,24 @@
     font-weight: bold;
   }
   .app-home_top-description {
-    // font-size: 3rem;
     margin: 0;
+    color: #868686;
   }
   img {
     width: 50%;
     height: auto;
+  }
+  @include respond-to(xs) {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    height: auto;
+    padding: 5em 1em;
+    img {
+      width: 100%;
+      margin-bottom: 2em;
+    }
   }
 }
 
@@ -30,6 +44,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 3em -15px 0 -15px;
+  @include respond-to(xs) {
+    flex-direction: column;
+  }
 }
 
 .app-home__work-card {
@@ -50,6 +67,10 @@
     img {
       transform: scale(1.05);
     }
+  }
+  @include respond-to(xs) {
+    width: calc(100% - 30px);
+    height: 250px;
   }
 }
 
@@ -79,6 +100,19 @@
   .app-section__title {
     margin-bottom: 3em;
     font-weight: normal;
+  }
+  @include respond-to(xs) {
+    padding: 3em 0;
+    flex-direction: column;
+    .app-section__title {
+      margin-bottom: 1.5em;
+    }
+  }
+}
+
+.app-home__detail-exp {
+  @include respond-to(xs) {
+    margin-bottom: 2em;
   }
 }
 

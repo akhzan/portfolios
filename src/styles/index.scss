@@ -1,5 +1,6 @@
 @import './modules/global';
 @import './modules/normalize';
+@import './modules/responsive';
 
 .app-content {
   padding: 0 25%;
@@ -11,6 +12,15 @@
   }
   &.--flexible {
     height: auto;
+  }
+  @include respond-to(xs) {
+    padding: 0 5%;
+    width: 90%;
+    height: auto;
+    &.--medium {
+      padding: 0 5%;
+      width: 90%;
+    }
   }
 }
 

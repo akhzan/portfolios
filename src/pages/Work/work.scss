@@ -1,5 +1,10 @@
+@import '../../styles/modules/responsive';
+
 .app-work {
   padding: 8em 0;
+  @include respond-to(xs) {
+    padding: 8em 1.5em;
+  }
 }
 
 .app-work__desc {
