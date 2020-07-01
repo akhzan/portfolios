@@ -4,18 +4,20 @@ import Sam from '../assets/d.jpg'
 import Porse from '../assets/e.jpg'
 import PorseDetail from '../assets/porse.png'
 import SamDetail from '../assets/sam.png'
+import CanfazzWebDetail from '../assets/canfazzweb.png'
+import CanfazzDashboardDetail from '../assets/canfazzdashboard.png'
 
 const works = {
   'canfazz-web': {
     image: CanfazzWeb,
-    imageDetail: CanfazzWeb,
+    imageDetail: CanfazzWebDetail,
     title: 'Canfazz Freelancer Web',
     description: 'Canfazz Freelancer Company Profile',
     tech: 'Next JS',
   },
   'canfazz-dashboard': {
     image: CanfazzDashboard,
-    imageDetail: CanfazzDashboard,
+    imageDetail: CanfazzDashboardDetail,
     title: 'Canfazz Dashboard',
     description:
       'A dashboard used for managing sales marketing and canfazz freelancer. It contains Reporting, CMS, Sales management, KPI management, etc',
