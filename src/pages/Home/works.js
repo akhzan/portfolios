@@ -19,7 +19,7 @@ const Works = () => {
           <div className="app-home__work-card">
             <img src={CanfazzDashboard} alt="" />
             <div className="app-home__work-card-title">
-              <div>Canfazz Freelancer Dashboard</div>
+              <div>Canfazz Dashboard</div>
             </div>
           </div>
           <div className="app-home__work-card">

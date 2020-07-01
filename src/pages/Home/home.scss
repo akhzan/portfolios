@@ -19,7 +19,7 @@
 }
 
 .app-home__work {
-  padding: 5em 0;
+  padding: 8em 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,5 +68,50 @@
   &:hover {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.app-home__detail {
+  padding: 8em 0;
+  display: flex;
+  justify-content: space-between;
+  .app-section__title {
+    margin-bottom: 3em;
+    font-weight: normal;
+  }
+}
+
+.app-home__detail-exp-item {
+  margin: 0 5em 2em 0;
+  h3,
+  p {
+    margin: 0.5em 0;
+  }
+}
+
+.app-home__contract {
+  padding: 8em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  div {
+    margin-top: 3em;
+  }
+  a {
+    margin: 0 1em;
+    padding: 8px 1.5em;
+    transition: all 0.3s ease-out;
+    background: #f1f1f1;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+    display: inline-flex;
+    text-decoration: none;
+    color: #333333;
+    &:hover {
+      color: #f1f1f1;
+      background-color: #333333;
+      background: #333333;
+    }
   }
 }
