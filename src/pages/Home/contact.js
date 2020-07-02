@@ -5,8 +5,8 @@ const Detail = () => {
   return (
     <div className="app-content --flexible">
       <div className="app-home__contract">
-        <p className="app-section__title">Contact</p>
-        <div>
+        <p className="app-section__title wow fadeInUp">Contact</p>
+        <div className="wow fadeInUp">
           <a
             target="_blank"
             // eslint-disable-next-line react/jsx-closing-bracket-location

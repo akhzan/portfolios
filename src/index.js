@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import * as serviceWorker from './serviceWorker'
+import WOW from 'wow.js'
+import 'animate.css/animate.compat.css'
 
+import * as serviceWorker from './serviceWorker'
 import ConfigRoute from './router'
 import './styles/index.scss'
+
+new WOW().init()
 
 ReactDOM.render(
   <React.StrictMode>{ConfigRoute}</React.StrictMode>,

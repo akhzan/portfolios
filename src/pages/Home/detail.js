@@ -4,7 +4,7 @@ const Detail = () => {
   return (
     <div className="app-content --flexible">
       <div className="app-home__detail">
-        <div className="app-home__detail-exp">
+        <div className="app-home__detail-exp wow fadeInUp">
           <p className="app-section__title">Experiences</p>
           <div className="app-home__detail-exp-item">
             <h3>2018 - present</h3>
@@ -19,7 +19,7 @@ const Detail = () => {
             <p>Fullstack Developer / Astra Graphia IT</p>
           </div>
         </div>
-        <div className="app-home__detail-exp">
+        <div className="app-home__detail-exp wow fadeInUp">
           <p className="app-section__title">Studies</p>
           <div className="app-home__detail-exp-item">
             <h3>2010 - 2014</h3>

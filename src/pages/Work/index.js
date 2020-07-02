@@ -17,14 +17,14 @@ const Work = () => {
         <Link to="/">
           <img className="app-work__logo" src={Logo} alt="" />
         </Link>
-        <p className="app-section__title">{work.title}</p>
-        <p className="app-work__desc">{work.description}</p>
-        <div className="app-work__tech">
+        <p className="app-section__title wow fadeInUp">{work.title}</p>
+        <p className="app-work__desc wow fadeInUp">{work.description}</p>
+        <div className="app-work__tech wow fadeInUp">
           <div>Technology</div>
           <p>{work.tech}</p>
         </div>
         <img
-          className={`app-work__image ${work.imageClassname}`}
+          className={`wow fadeInUp app-work__image ${work.imageClassname}`}
           src={work.imageDetail}
           alt=""
         />
