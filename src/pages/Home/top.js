@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../../assets/humaaans.png'
+import Logo from '../../assets/humaaans.jpg'
 
 const Top = () => {
   return (
